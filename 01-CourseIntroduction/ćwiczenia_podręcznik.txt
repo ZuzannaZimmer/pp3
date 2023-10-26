@@ -1,0 +1,41 @@
+Ćwiczenie 1.1
+1. Jaka w żargonie komputerowym jest różnica
+ znaczeniowa pomiędzy instrukcją a komentarzem?
+
+komentarz zawiera informację o programie,
+ale nie ma wpływu na jego działanie,
+instrukcja opisuje jeden krok algorytmu
+
+2. Co znaczy, że program jest przenośny?
+
+To znaczy, że można uruchomić program, 
+na więcej niż jednym rodzaju komputera
+
+3. Co w języku naturalnym oznacza słowo „kompilować”?
+
+praca, utwór będące połączeniem fragmentów innych utworów
+lub zestawieniem wyników cudzych badań
+
+4. Co to jest kod wykonywalny?
+
+Inna nazwa kodu obiektowego,
+który jest gotowy do uruchomienia na określonym sprzęcie.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

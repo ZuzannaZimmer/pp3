@@ -1,5 +1,3 @@
-import java.net.SocketPermission;
-
 public class Time {
     public static void main(String[] args) {
 
