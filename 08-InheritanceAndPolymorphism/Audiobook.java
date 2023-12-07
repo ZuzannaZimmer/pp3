@@ -1,9 +1,10 @@
 public class Audiobook extends Book{
     private int minutes;
     private int seconds;
-    
-    public Audiobook(String title, String author, int minutes, int seconds) {
-        super(title, author);
+
+
+    public Audiobook(String name, String city, String title, int minutes, int seconds, int year, Writer author) {
+        super(name, city, title, year, author);
         this.minutes = minutes;
         this.seconds = seconds;
     }
@@ -25,6 +26,6 @@ public class Audiobook extends Book{
     }
 
     public void display(){
-        System.out.printf("\n\nTytuł książki: %s\nAutor: %s\nCzas trwania: %s minut %s sekund",title,author,minutes,seconds);
+        System.out.printf("\n\nTytuł książki: %s\nAutor: %s %s %s\nCzas trwania: %s minut %s sekund\nwydawca: %s %s\nrok wydania: %d",title,author.getNameW(), author.getSurnameW(), author.getGenre(),minutes,seconds,name,city,year);
     }
 }

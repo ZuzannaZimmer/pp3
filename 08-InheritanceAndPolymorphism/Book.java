@@ -1,9 +1,15 @@
-public class Book{
-    protected String title;
-    protected String author;
 
-    public Book(String title, String author){
+public class Book extends Publisher{
+    protected String title;
+    protected int year;
+    protected Writer author;
+    
+
+
+    public Book(String name, String city, String title, int year, Writer author) {
+        super(name, city);
         this.title = title;
+        this.year = year;
         this.author = author;
     }
 
@@ -15,15 +21,15 @@ public class Book{
         this.title = title;
     }
 
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
     public void display(){
-        System.out.printf("\n\nTytuł książki: %s\nautor: %s",title,author);
+        System.out.printf("\n\nTytuł książki: %s\nautor: %s %s %s\nwydawca: %s %s\nrok wydania: %d",title,author.getNameW(), author.getSurnameW(), author.getGenre(), name, city,year);
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
 }

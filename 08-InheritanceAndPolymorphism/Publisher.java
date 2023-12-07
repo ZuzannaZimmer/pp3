@@ -1,6 +1,6 @@
 public class Publisher {
-    private String name;
-    private String city;
+    protected String name;
+    protected String city;
     
     public Publisher(String name, String city) {
         this.name = name;
