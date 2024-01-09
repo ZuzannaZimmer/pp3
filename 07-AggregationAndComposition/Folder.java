@@ -10,16 +10,16 @@ public class Folder {
     }
 
     // zależne od siebie composition
-    // public void addFile(String name) {
-    // file = new File(name);
-
-    // }
-
-    // niezależne od siebie aggregation
-    public void addFile(File file) {
-        this.file = file;
+    public void addFile(String name) {
+        file = new File(name);
 
     }
+
+    // niezależne od siebie aggregation
+    // public void addFile(File file) {
+    // this.file = file;
+
+    // }
 
     public void deleteFile() {
         file = null;

@@ -1,10 +1,8 @@
 
-public class Book extends Publisher{
+public class Book extends Publisher {
     protected String title;
     protected int year;
     protected Writer author;
-    
-
 
     public Book(String name, String city, String title, int year, Writer author) {
         super(name, city);
@@ -21,8 +19,9 @@ public class Book extends Publisher{
         this.title = title;
     }
 
-    public void display(){
-        System.out.printf("\n\nTytuł książki: %s\nautor: %s %s %s\nwydawca: %s %s\nrok wydania: %d",title,author.getNameW(), author.getSurnameW(), author.getGenre(), name, city,year);
+    public void display() {
+        System.out.printf("\n\nTytuł książki: %s\nautor: %s %s %s\nwydawca: %s %s\nrok wydania: %d", title,
+                author.getNameW(), author.getSurnameW(), author.getGenre(), name, city, year);
     }
 
     public int getYear() {

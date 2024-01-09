@@ -5,11 +5,11 @@ public class FolderTest {
         Folder folder = new Folder("Folder1");
 
         // sposob aggregation (niezależne od siebie)
-        File f = new File("f2");
-        folder.addFile(f);
+        // File f = new File("f2");
+        // folder.addFile(f);
 
         // sposob composition (jeden nie może istnież bez drugiego)
-        // folder.addFile("f1");
+        folder.addFile("f1");
 
         System.out.println(folder);
     }
